@@ -8,7 +8,7 @@
       "name": "京东多账号 Ck 管理",
       "keys": ["CookiesJD"],
       "descs_html": [
-        "请勿随意在输入框修改内容，建议通过脚本去获取cookie，若要修改，请按照JSON 格式修改。"
+        "请勿随意在输入框修改内容，建议通过脚本去获取cookie，若要修改，请按照JSON 格式修改。",
         "使用方式【<a href=\"https://home.m.jd.com/myJd/newhome.action\">个人中心</a>】获取对应的数据Code",
         "注：如与NobyDa的京东cookie出现重复，建议在此处删除重复的cookie"
       ],
@@ -541,9 +541,7 @@
     {
       "id": "jd_SuperMarket_Reawrd",
       "name": "东东超市兑换奖品",
-      "keys": [
-        "coinToBeans"
-      ],
+      "keys": ["coinToBeans"],
       "desc": "默认不兑换奖品,例如:兑换20京豆输入20,兑换1000京豆输入1000,兑换 柠檬果香洗手液， 输入 柠檬果香洗手液。其他详细的奖品名称去京小超活动页面查看",
       "settings": [
         {
