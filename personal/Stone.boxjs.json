@@ -559,7 +559,7 @@
           "desc": "输入兑换奖品名称(默认不兑换奖品)"
         }
       ],
-      "repo": "https://github.com/p3stone/jd-lxk0301",
+      "repo": "stone",
       "scripts": [
         {
           "name" : "东东超市兑换奖品",
