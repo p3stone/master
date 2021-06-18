@@ -2,7 +2,6 @@
   "id": "Stone.app.sub",
   "name": "Stone脚本订阅",
   "icon": "https://github.com/p3stone/jd-lxk0301/blob/main/stone.jpg",
-  "repo": "https://github.com/p3stone/jd-lxk0301",
   "apps": [
     {
       "id": "JD_Cookies",
