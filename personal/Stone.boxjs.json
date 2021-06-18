@@ -1,15 +1,14 @@
 {
   "id": "Stone.app.sub",
-  "name": "Stone脚本订阅",
-  "icon": "https://github.com/p3stone/jd-lxk0301/blob/main/stone.jpg",
+  "name": "Stone订阅",
+  "icon": "https://github.com/p3stone/master/blob/stone/personal/stone.jpg",
   "apps": [
     {
       "id": "JD_Cookies",
       "name": "京东多账号 Ck 管理",
       "keys": ["CookiesJD"],
       "descs_html": [
-        "请勿随意在输入框修改内容，建议通过脚本去获取cookie，若要修改，请按照JSON 格式修改。",
-        "脚本地址【<a href=\"https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/JD_extra_cookie.js?token=AHHIXZE24YCSURVE73XY663AYQTQQ\">京东多 CK获取</a>】,并按照此脚本注释进行配置",
+        "请勿随意在输入框修改内容，建议通过脚本去获取cookie，若要修改，请按照JSON 格式修改。"
         "使用方式【<a href=\"https://home.m.jd.com/myJd/newhome.action\">个人中心</a>】获取对应的数据Code",
         "注：如与NobyDa的京东cookie出现重复，建议在此处删除重复的cookie"
       ],
@@ -30,7 +29,7 @@
       ],
       "author": "@dompling",
       "repo": "https://github.com/dompling/Script",
-      "script": "https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/JD_extra_cookie.js?token=AHHIXZE24YCSURVE73XY663AYQTQQ"
+      "script": "https://raw.githubusercontent.com/p3stone/master/stone/JD_extra_cookie.js"
     },
     {
       "id": "JD_UA",
@@ -51,7 +50,7 @@
           "desc": "不懂不知不会UserAgent的请不要随意填写内容，如需填写使用建议使用京东APP的UserAgent"
         }
       ],
-      "repo": "https://github.com/p3stone/jd-lxk0301",
+      "repo": "stone",
       "icons": [
         "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
         "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
@@ -161,8 +160,8 @@
           "desc": "京东水果互助码.这是别人的shareCode,你帮别人助力."
         }
       ],
-      "repo": "https://github.com/p3stone/jd-lxk0301",
-      "script": "https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/jd_fruit.js?token=AHHIXZE4DCYMTOGHZ7PP2OTAYQT4I",
+      "repo": "stone",
+      "script": "https://raw.githubusercontent.com/p3stone/master/stone/personal/jd_fruit.js",
       "icons": [
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
@@ -278,8 +277,8 @@
           "desc": "东东萌宠互助码.这是别人的shareCode,你帮别人助力."
         }
       ],
-      "repo": "https://github.com/p3stone/jd-lxk0301",
-      "script": "https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/jd_pet.js?token=AHHIXZHABA6GXXYJBJCDQSDAYQT6S",
+      "repo": "stone",
+      "script": "https://raw.githubusercontent.com/p3stone/master/stone/personal/jd_pet.js",
       "icons": [
         "https://raw.githubusercontent.com/58xinian/icon/master/jdmc_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png"
@@ -363,77 +362,11 @@
           "desc": "种豆得豆互助码.这是别人的助力码,你帮别人助力."
         }
       ],
-      "repo": "https://github.com/p3stone/jd-lxk0301",
-      "script": "https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/jd_plantBean.js?token=AHHIXZHSFEWBMG6RFOJDRL3AYQUFQ",
+      "repo": "stone",
+      "script": "https://raw.githubusercontent.com/p3stone/master/stone/personal/jd_plantBean.js",
       "icons": [
         "https://raw.githubusercontent.com/58xinian/icon/master/jdzd_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png"
-      ]
-    },
-    {
-      "id": "jd_Joy",
-      "name": "宠汪汪",
-      "keys": [],
-      "settings": [
-        {
-          "id": "jdJoyNotify",
-          "name": "静默运行",
-          "val": true,
-          "type": "boolean",
-          "desc": "运行宠汪汪(jd_joy.js)脚本时不发出系统弹窗通知"
-        },
-        {
-          "id": "jdJoyStealNotify",
-          "name": "静默运行",
-          "val": false,
-          "type": "boolean",
-          "desc": "运行宠汪汪(jd_joy_steal.js)脚本时不发出系统弹窗通知"
-        },
-        {
-          "id": "jdJoyHelpFeed",
-          "name": "是否给好友喂食(默认不帮好友喂食)",
-          "val": false,
-          "type": "boolean",
-          "desc": "给好友喂食可得积分，但会消耗自己狗粮"
-        },
-        {
-          "id": "jdJoyStealCoin",
-          "name": "是否偷好友积分与狗粮(默认是)",
-          "val": true,
-          "type": "boolean",
-          "desc": "偷好友积分与狗粮"
-        },
-        {
-          "id": "joyFeedCount",
-          "name": "每次喂养数量（默认10g）",
-          "val": "10",
-          "type": "radios",
-          "desc": "每次喂养狗粮克数(默认10g)",
-          "items": [
-            {
-              "key": "10",
-              "label": "消耗10g"
-            },
-            {
-              "key": "20",
-              "label": "消耗20g"
-            },
-            {
-              "key": "40",
-              "label": "消耗40g"
-            },
-            {
-              "key": "80",
-              "label": "消耗80g"
-            }
-          ]
-        }
-      ],
-      "repo": "https://github.com/p3stone/jd-lxk0301",
-      "script": "https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/jd_joy.js?token=AHHIXZGI6627BXAI6O7H5NLAYQUIM",
-      "icons": [
-        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww_mini.png",
-        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
       ]
     },
     {
@@ -474,86 +407,8 @@
           ]
         }
       ],
-      "repo": "https://github.com/p3stone/jd-lxk0301",
-      "script": "https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/jd_joy_reward.js?token=AHHIXZEUH6DDWLLMONHCNFDAYQUWW",
-      "icons": [
-        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww_mini.png",
-        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
-      ]
-    },
-    {
-      "id": "jd_Joy_Run",
-      "name": "宠汪汪邀请助力与赛跑助力",
-      "keys": [
-        "jdJoyRunToken",
-        "jd_joy_run_name",
-        "jd_joy_invite_pin",
-        "jd_joy_run_pin",
-        "jd2_joy_run_name",
-        "jd2_joy_invite_pin",
-        "jd2_joy_run_pin"
-      ],
-      "desc": "宠汪汪的互助码friendPin是京东用户名,不是昵称(可在京东APP->我的->设置查看)。互助码之间用英文逗号隔开,下面给出具体示例,使用时可自行清空重新按格式填写你自己的",
-      "settings": [
-        {
-          "id": "joyRunFlag",
-          "name": "是否参加赛跑(默认参加)",
-          "val": true,
-          "type": "boolean",
-          "desc": "开启脚本将会为您自动参加赛跑(默认参加双人赛跑)"
-        },
-        {
-          "id": "JOY_TEAM_LEVEL",
-          "name": "宠汪汪赛跑级别选择",
-          "val": "2",
-          "type": "text",
-          "desc": "参加多少人的赛跑比赛，其中2代表参加双人PK赛，10代表参加10人突围赛，50代表参加50人挑战赛，多账号参加不同级别的赛跑用&符号隔开,例如2&10&50"
-        },
-        {
-          "id": "jd_joy_run_name",
-          "name": "京东账号一昵称",
-          "val": "",
-          "type": "text",
-          "desc": "京东账号昵称,用于区分自己的京东账号(非必填，建议多个京东账号使用)"
-        },
-        {
-          "id": "jd_joy_invite_pin",
-          "name": "账号一邀请助力friendPin名单",
-          "val": "jd_6cd93e613b0e5,被折叠的记忆33",
-          "type": "text",
-          "desc": "多个账号使用英文逗号','隔开,最多3个"
-        },
-        {
-          "id": "jd_joy_run_pin",
-          "name": "账号一赛跑助力friendPin名单",
-          "val": "jd_6cd93e613b0e5,被折叠的记忆33",
-          "type": "text",
-          "desc": "多个账号使用英文逗号','隔开,最多6个"
-        },
-        {
-          "id": "jd2_joy_run_name",
-          "name": "京东账号二昵称",
-          "val": "",
-          "type": "text",
-          "desc": "京东账号昵称,用于区分自己的京东账号(非必填，建议多个京东账号使用)"
-        },
-        {
-          "id": "jd2_joy_invite_pin",
-          "name": "账号二邀请助力friendPin名单",
-          "val": "jd_6cd93e613b0e5,被折叠的记忆33",
-          "type": "text",
-          "desc": "多个账号使用英文逗号','隔开,最多3个"
-        },
-        {
-          "id": "jd2_joy_run_pin",
-          "name": "账号二赛跑助力friendPin名单",
-          "val": "jd_6cd93e613b0e5,被折叠的记忆33",
-          "type": "text",
-          "desc": "多个账号使用英文逗号','隔开,最多6个"
-        }
-      ],
-      "repo": "https://github.com/p3stone/jd-lxk0301",
-      "script": "https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/jd_joy_run.js?token=AHHIXZF6F2DBOC5KPMU2L6TAYQUZO",
+      "repo": "stone",
+      "script": "https://raw.githubusercontent.com/p3stone/master/stone/personal/jd_joy_reward.js",
       "icons": [
         "https://raw.githubusercontent.com/58xinian/icon/master/jdcww_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
@@ -579,31 +434,11 @@
           "desc": "是否卖出金果获得金币,金币具有有效期，默认不卖出"
         }
       ],
-      "repo": "https://github.com/p3stone/jd-lxk0301",
-      "script": "https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/jd_moneyTree.js?token=AHHIXZFH6S4X7M5QMRAH6LLAYQU4C",
+      "repo": "stone",
+      "script": "https://raw.githubusercontent.com/p3stone/master/stone/personal/jd_moneyTree.js",
       "icons": [
         "https://raw.githubusercontent.com/58xinian/icon/master/jdyqs_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jdyqs.png"
-      ]
-    },
-    {
-      "id": "jd_Speed",
-      "name": "京东天天加速",
-      "keys": [],
-      "settings": [
-        {
-          "id": "jdSpeedNotify",
-          "name": "静默运行",
-          "val": true,
-          "type": "boolean",
-          "desc": "运行京东天天加速脚本时不发出系统弹窗通知"
-        }
-      ],
-      "repo": "https://github.com/p3stone/jd-lxk0301",
-      "script": "https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/jd_speed.js?token=AHHIXZGAEROHYZJHUAWCVCDAYQU5Y",
-      "icons": [
-        "https://raw.githubusercontent.com/58xinian/icon/master/jdjs_mini.png",
-        "https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png"
       ]
     },
     {
@@ -650,8 +485,8 @@
           "desc": "匹配到此处店铺后面(包括此店铺)的不再进行取关(此处内容请尽量从头开始输入店铺名称)"
         }
       ],
-      "repo": "https://github.com/p3stone/jd-lxk0301",
-      "script": "https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/jd_unsubscribe.js?token=AHHIXZDXIH3FSZOWSIHPMVLAYQVBC",
+      "repo": "stone",
+      "script": "https://raw.githubusercontent.com/p3stone/master/stone/personal/jd_unsubscribe.js",
       "icons": [
         "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
         "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
@@ -691,11 +526,11 @@
           "desc": "运行脚本消耗金币进行抽奖，默认抽奖"
         }
       ],
-      "repo": "https://github.com/p3stone/jd-lxk0301",
+      "repo": "stone",
       "scripts":[
         {
-          "name" : "京小超",
-          "script" : "https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/jd_superMarket.js?token=AHHIXZB6CASRA5K5RORU3NTAYQVQO"
+          "name" : "东东超市",
+          "script" : "https://raw.githubusercontent.com/p3stone/master/stone/personal/jd_superMarket.js"
         }
       ],
       "icons": [
@@ -705,7 +540,7 @@
     },
     {
       "id": "jd_SuperMarket_Reawrd",
-      "name": "京小超兑换奖品",
+      "name": "东东超市兑换奖品",
       "keys": [
         "coinToBeans"
       ],
@@ -729,8 +564,8 @@
       "repo": "https://github.com/p3stone/jd-lxk0301",
       "scripts": [
         {
-          "name" : "京小超兑换奖品",
-          "script" : "https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/jd_blueCoin.js?token=AHHIXZDYE7VEKC3G5KLPFVTAYQVTE"
+          "name" : "东东超市兑换奖品",
+          "script" : "https://raw.githubusercontent.com/p3stone/master/stone/personal/jd_blueCoin.js"
         }
       ],
       "icons": [
@@ -769,34 +604,12 @@
           "desc": "需要修改最小的运动步数的数字,例如:25000"
         }
       ],
-      "repo": "https://github.com/p3stone/jd-lxk0301",
-      "script": "https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/xmSports.js?token=AHHIXZFY2TDJZL5RRRPAE5LAYQV7W",
+      "repo": "stone",
+      "script": "https://raw.githubusercontent.com/p3stone/master/stone/personal/xmSports.js",
       "icons": [
         "https://raw.githubusercontent.com/58xinian/icon/master/xmyd_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png"
       ]
     },
-    {
-      "id": "lxk_jdfactory",
-      "name": "东东工厂",
-      "keys": [
-        "FACTORAY_WANTPRODUCT_NAME"
-      ],
-      "settings": [
-        {
-          "id": "FACTORAY_WANTPRODUCT_NAME",
-          "name": "心仪商品名称",
-          "val": "",
-          "type": "text",
-          "desc": "请尽量填写完整和别的商品有区分度"
-        }
-      ],
-      "repo": "https://github.com/p3stone/jd-lxk0301",
-      "script": "https://raw.githubusercontent.com/p3stone/jd-lxk0301/main/jd_jdfactory.js?token=AHHIXZCYKJ62OHQSWFOQNO3AYQWCO",
-      "icons": [
-        "https://raw.githubusercontent.com/58xinian/icon/master/jd_factory_mini.png",
-        "https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png"
-      ]
-    }
   ]
 }
