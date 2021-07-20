@@ -636,30 +636,6 @@
                     "val": "201808",
                     "type": "number",
                     "desc": "默认内置，自行修改"
-                }, {
-                    "id": "tlshyidE",
-                    "name": "好友E",
-                    "val": "",
-                    "type": "number",
-                    "desc": "默认内置，自行修改"
-                }, {
-                    "id": "tlshyidF",
-                    "name": "好友F",
-                    "val": "",
-                    "type": "number",
-                    "desc": "默认内置，自行修改"
-                }, {
-                    "id": "tlshyidG",
-                    "name": "好友G",
-                    "val": "",
-                    "type": "number",
-                    "desc": "默认内置，自行修改"
-                }, {
-                    "id": "tlshyidH",
-                    "name": "好友H",
-                    "val": "",
-                    "type": "number",
-                    "desc": "默认内置，自行修改"
                 }
                 ],
             "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/tls.js",
