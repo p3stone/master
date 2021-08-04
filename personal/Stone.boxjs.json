@@ -100,24 +100,48 @@
                 },{
                     "id": "tlshyidA",
                     "name": "好友A",
-                    "val": "201797",
+                    "val": "202028",
                     "type": "number",
                     "desc": "默认内置，自行修改"
                 }, {
                     "id": "tlshyidB",
                     "name": "好友B",
-                    "val": "201799",
+                    "val": "116914",
                     "type": "number",
                     "desc": "默认内置，自行修改"
                 }, {
                     "id": "tlshyidC",
                     "name": "好友C",
-                    "val": "3097513",
+                    "val": "117133",
                     "type": "number",
                     "desc": "默认内置，自行修改"
                 }, {
                     "id": "tlshyidD",
                     "name": "好友D",
+                    "val": "117310",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                },{
+                    "id": "tlshyidE",
+                    "name": "好友E",
+                    "val": "3097513",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidF",
+                    "name": "好友F",
+                    "val": "201799",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidG",
+                    "name": "好友G",
+                    "val": "201797",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidH",
+                    "name": "好友H",
                     "val": "201808",
                     "type": "number",
                     "desc": "默认内置，自行修改"
