@@ -4,34 +4,6 @@
   "icon": "https://github.com/p3stone/master/blob/stone/personal/stone.jpg",
   "apps": [
     {
-      "id": "JD_Cookies",
-      "name": "京东多账号 Ck 管理",
-      "keys": ["CookiesJD"],
-      "descs_html": [
-        "请勿随意在输入框修改内容，建议通过脚本去获取cookie，若要修改，请按照JSON 格式修改。",
-        "使用方式【<a href=\"https://home.m.jd.com/myJd/newhome.action\">个人中心</a>】获取对应的数据Code",
-        "注：如与NobyDa的京东cookie出现重复，建议在此处删除重复的cookie"
-      ],
-      "settings": [
-        {
-          "id": "CookiesJD",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "CK 列表 (JSON 格式)"
-        }
-      ],
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
-        "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
-      ],
-      "author": "@dompling",
-      "repo": "https://github.com/dompling/Script",
-      "script": "https://raw.githubusercontent.com/p3stone/master/stone/JD_extra_cookie.js"
-    },
-    {
       "id": "JD_UA",
       "name": "自定义京东脚本的UserAgent",
       "keys": [
