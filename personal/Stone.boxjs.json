@@ -29,6 +29,42 @@
       ]
     },
     {
+            "id":"wlkdapp",
+            "name":"文旅看点",
+            "keys":[
+                "wlkdapp"
+            ],
+            "settings": [{
+                "id": "wlkduserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "wlkdactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://github.com/bluesmallpig/scripts",
+            "icons":[
+                "https://github.com/bluesmallpig/scripts/blob/main/img/wlkd-mini.png?raw=true",
+                "https://github.com/bluesmallpig/scripts/blob/main/img/wlkd.png?raw=true"
+            ],
+            "script":"https://github.com/"
+        },
+    {
             "id": "tls",
             "name": "特仑苏小程序",
             "keys": ["tlsurl", "tlsheader", "tlsurl2", "tlsheader2", "tlsurl3", "tlsheader3", "tlsurl4", "tlsheader4", "tlsurl5", "tlsheader5", "tlsurl6", "tlsheader6", "tlsurl7", "tlsheader7", "tlsurl8", "tlsheader8", "tlsurl9", "tlsheader9", "tlsurl10", "tlsheader10", "tlsurl11", "tlsheader11", "tlsurl12", "tlsheader12", "tlsurl13", "tlsheader13", "tlsurl14", "tlsheader14", "tlsurl15", "tlsheader15", "tlsurl16", "tlsheader16", "tlsurl17", "tlsheader17", "tlsurl18", "tlsheader18", "tlsurl19", "tlsheader19", "tlsurl20", "tlsheader20"],
