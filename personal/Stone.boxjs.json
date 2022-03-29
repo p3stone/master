@@ -28,7 +28,7 @@
         "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
       ]
     },
-    {
+   {
             "id":"wlkdapp",
             "name":"文旅看点",
             "keys":[
@@ -44,7 +44,7 @@
 	        {
                 "id": "tguserid",
                 "name": "用户编号",
-                "val": "1",
+                "val": "",
                 "type": "number",
                 "desc": "从机器人获得"
             },
